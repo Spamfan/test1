@@ -1,6 +1,6 @@
 window.ASSET_PREFIX = "";
 window.SCRIPT_PREFIX = "";
-window.SCENE_PATH = "2469329.json";
+window.SCENE_PATH = "2469382.json";
 window.CONTEXT_OPTIONS = {
     'antialias': true,
     'alpha': false,
@@ -8,7 +8,7 @@ window.CONTEXT_OPTIONS = {
     'deviceTypes': [`webgl2`, `webgl1`],
     'powerPreference': "high-performance"
 };
-window.SCRIPTS = [ 284599558, 284634990, 284634994 ];
+window.SCRIPTS = [ 284635158, 284635163 ];
 window.CONFIG_FILENAME = "config.json";
 window.INPUT_SETTINGS = {
     useKeyboard: true,
