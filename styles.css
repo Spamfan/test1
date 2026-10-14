@@ -1,14 +1,25 @@
-/* styles.css v0.0.3 */
+/* styles.css v0.0.4 */
 body {
-  font-family: Arial, sans-serif;
-  margin: 2rem;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: system-ui, -apple-system, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at 50% 20%, #f1f5f9, #cbd5e1);
+  color: #0f172a;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 @media (prefers-color-scheme: dark) {
   body {
-    background: #121212;
-    color: #e0e0e0;
+    background: radial-gradient(circle at 50% 20%, #1e293b, #0f172a);
+    color: #f1f5f9;
+  }
+  .card {
+    background: rgba(30, 41, 59, 0.7);
+    border-color: rgba(255, 255, 255, 0.1);
   }
 }
 
@@ -24,6 +35,16 @@ body {
 }
 
 h1 {
+  margin: 0 0 0.5rem;
   display: inline-block;
   animation: glow-float 3s ease-in-out infinite;
+}
+
+.card {
+  padding: 2.5rem 3rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
 }
